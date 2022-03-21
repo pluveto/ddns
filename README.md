@@ -26,3 +26,7 @@ chmod +x start.sh
 ```shell
 crontab -e
 ```
+
+```cron
+@reboot /root/app/ddns/start.sh
+```
